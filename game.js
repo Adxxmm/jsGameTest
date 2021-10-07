@@ -18,10 +18,11 @@ function setup() {
 
     Button.parent("Buttons");
 
-    // let FullScreenButton = createButton("Full Screen");
-    // FullScreenButton.center();
-    // FullScreenButton.class("MainButton");
-    // FullScreenButton.mousePressed(fullScreenMode);
+    let FullScreenButton = createButton("Full Screen");
+    FullScreenButton.class("MainButton");
+    FullScreenButton.mousePressed(fullScreenMode);
+
+    FullScreenButton.parent("Buttons");
 }
 
 function draw() {
